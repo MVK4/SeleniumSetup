@@ -11,6 +11,7 @@ public class Initial2ClassSetup {
 	System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 	ChromeDriver driver = new ChromeDriver();
 	driver.get("http://www.udemy.com");
+	/////
 	//driver.findElementById("email").sendKeys("Vinod");
 	Thread.sleep(2000);
 	
